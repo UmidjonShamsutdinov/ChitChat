@@ -54,7 +54,7 @@ signUpform.addEventListener("submit", function(e){
             signUpUserName.previousElementSibling.textContent = "Signed Up Successfully" 
             signUpUserName.previousElementSibling.classList.add("passed") 
             setTimeout(() => {
-                location.pathname = "../pages/index.html"
+                location.pathname = "./index.html"
             }, 3000);
         }
         
