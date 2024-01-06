@@ -1,0 +1,1 @@
+(()=>{const e=document.querySelector("#form");document.querySelector(".username"),document.querySelector(".password"),e.addEventListener("submit",(function(e){e.preventDefault()}))})();

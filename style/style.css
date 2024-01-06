@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #141325CC;
+}
+
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 558px;
+    height: 635px;
+    background-color: aqua;
+    padding: 90px 86px 135px 86px;
+    align-items: center;
+    background-color:  #0A0A14;;
+
+}
+
+
+h1{
+    color: #FBFDF5;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 54px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 35px 0;
+}
+
+
+
+form > div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    gap: 10px 0;
+}
+
+form > div > strong {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+form input{
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 23px 0;
+    text-indent: 24px;
+    border: 4px solid #342479;
+    outline: none;
+    box-shadow: -4px -4px 4px 0px rgba(52, 36, 121, 0.25), 4px 4px 4px 0px rgba(52, 36, 121, 0.25);
+    color: #E8F0F9;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+form input::placeholder{
+    color: #81858F;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+
+form button{
+    display: flex;
+    width: 383px;
+    height: 60px;
+    border: none;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #4D0EFF;
+    box-shadow: -4px -4px 4px 0px rgba(52, 36, 121, 0.25), 4px 4px 4px 0px rgba(52, 36, 121, 0.25);
+    color: #FEDDFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+form p{
+    color: #D7D7DD;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+form p>a{
+    color: #380FCE;
+    text-decoration: none;
+}
+
+
+
+
+.sign-up-wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 558px;
+    height: auto;
+    padding: 90px 86px 135px 86px;
+    align-items: center;
+    background-color:  #0A0A14;
+}
+
+
+
+.wrong{
+    color: red;
+}
+
+.passed{
+    color: green;
+}
+
+
+.pass{    
+    color: #373533;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 10px;
+    background: #E8F0F9;
+    border: 4px solid transparent;
+    box-shadow: -4px -4px 4px 0px rgba(52, 36, 121, 0.25), 4px 4px 4px 0px rgba(52, 36, 121, 0.25);
+}
+
+
+
